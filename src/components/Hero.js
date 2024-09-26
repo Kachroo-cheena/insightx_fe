@@ -12,7 +12,9 @@ const Hero = () => {
         <h1 className="text-4xl md:text-5xl font-bold typing">
           Experience Lightning-Fast MRI/CT Sequence Uploads with Quick Reporting
         </h1>
-        <button className="bg-accentBlue text-white px-8 py-3 mt-8 rounded-lg hover:bg-red-300 transition-all duration-300">
+        <button className="bg-accentBlue text-white px-8 py-3 mt-8 rounded-lg hover:bg-red-300 transition-all duration-300" onClick={()=>{
+          window.location.href="https://dashboard-insightx.netlify.app"
+        }}>
           Experience insightX
         </button>
       </div>
